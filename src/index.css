@@ -1,0 +1,48 @@
+*{
+  font-family: 'Fira Sans', sans-serif;
+font-family: 'Plus Jakarta Sans', sans-serif;
+
+
+}
+
+h3{
+  margin: 100px 1471px 977px 109px;
+  
+  font-weight: 700;
+font-size: 32px;
+line-height: 40px;
+
+
+}
+
+#sub{
+  
+  margin: 323px 960px 309px 109px;
+
+}
+
+#image{
+  margin: 120px 109px 132px 994px;
+  width: 625.01px;
+height: 865px;
+left: 994px;
+top: 120px;
+}
+
+h1{
+  font-style: normal;
+  font-weight: 700;
+  font-size: 96px;
+  line-height: 50px;
+}
+
+p{
+  font-style: normal;
+font-weight: 500;
+font-size: 27px;
+line-height: 33px;
+}
+
+#main{
+  position: absolute;
+}
