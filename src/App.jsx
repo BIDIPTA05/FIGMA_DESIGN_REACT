@@ -6,9 +6,11 @@ import "./index.css";
 
 const App = () => {
   return (
-    <div id="main">
+    <div className="main">
+
       <h3>LAZY GUY</h3>
-      <div>
+
+      <div className="d2">
         <div className="title-subtitle-wrapper">
           <h1>
             Come to learn,
@@ -19,15 +21,23 @@ const App = () => {
             Explore your creativity with thousands of <br /> inspiring classes
             of design and illustrations
           </p>
+
+          <div className="action-btns">
+              <button className="btn contained">Demo class</button>
+              <button className="btn outlined">Main features</button>
+          </div>
+
         </div>
-        <div className="action-btns">
-          <button className="btn contained">Demo class</button>
-          <button className="btn outlined">Main features</button>
+        
+        <div id="image">
+          <img src="../src/image.png"  />
         </div>
+
+        
       </div>
-      <div id="image">
-        <img src="../src/image.png" height="400px" />
-      </div>
+     
+
+
     </div>
   );
 };

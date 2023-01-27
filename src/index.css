@@ -5,6 +5,9 @@
 
 .title-subtitle-wrapper {
   margin-bottom: 100px;
+  margin : 10px 960px 309px 109px;
+  margin-right: 250px;
+  margin-left: 109;
 }
 
 .title-subtitle-wrapper h1 {
@@ -12,6 +15,10 @@
   font-size: 96px;
   line-height: 100px;
   margin-bottom: 50px;
+
+  width: 670px;
+  height: 200px;
+
 }
 
 .title-subtitle-wrapper p {
@@ -19,6 +26,7 @@
   font-size: 27px;
   line-height: 33px;
   color: rgba(0, 0, 0, 0.57);
+  margin-bottom: 111px;
 }
 
 .action-btns {
@@ -49,6 +57,14 @@ h3 {
   font-weight: 700;
   font-size: 32px;
   line-height: 40px;
+  margin-bottom: 183px;
+  margin-top: 129px;
+
+}
+
+.d2{
+  display: flex;
+  margin: auto;
 }
 
 #sub {
@@ -56,11 +72,11 @@ h3 {
 }
 
 #image {
-  margin: 120px 109px 132px 994px;
+  
   width: 625.01px;
-  height: 865px;
-  left: 994px;
-  top: 120px;
+height: 865px;
+margin-left: 250px;
+  
 }
 
 h1 {
@@ -68,6 +84,7 @@ h1 {
   font-weight: 700;
   font-size: 96px;
   line-height: 50px;
+  margin-bottom: 30px;
 }
 
 p {
@@ -77,6 +94,7 @@ p {
   line-height: 33px;
 }
 
-#main {
+.main {
   position: absolute;
+  
 }
