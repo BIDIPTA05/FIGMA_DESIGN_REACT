@@ -4,7 +4,7 @@ import "./index.css";
 const App = () => {
   return (
     <div className="main">
-      <img src="../src/assets/lg.png" className="img1" />
+      <img src="https://www.linkpicture.com/q/lg_2.png" className="img1" />
 
       <div className="d2">
         <div className="title-subtitle-wrapper">
@@ -24,7 +24,7 @@ const App = () => {
           </div>
         </div>
 
-        <img src="../src/image.png" id="image" />
+        <img src="https://www.linkpicture.com/q/image_33.png" id="image" />
       </div>
     </div>
   );
