@@ -1,14 +1,10 @@
 import React from "react";
 import "./index.css";
 
-//TODO : replace all id with class
-//TODO : refactor the code as much as possible
-
 const App = () => {
   return (
     <div className="main">
-
-      <h3>LAZY GUY</h3>
+      <img src="../src/assets/lg.png" className="img1" />
 
       <div className="d2">
         <div className="title-subtitle-wrapper">
@@ -23,21 +19,13 @@ const App = () => {
           </p>
 
           <div className="action-btns">
-              <button className="btn contained">Demo class</button>
-              <button className="btn outlined">Main features</button>
+            <button className="btn contained">Demo class</button>
+            <button className="btn outlined">Main features</button>
           </div>
-
-        </div>
-        
-        <div id="image">
-          <img src="../src/image.png"  />
         </div>
 
-        
+        <img src="../src/image.png" id="image" />
       </div>
-     
-
-
     </div>
   );
 };

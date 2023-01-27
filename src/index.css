@@ -3,11 +3,11 @@
   font-family: "Plus Jakarta Sans", sans-serif;
 }
 
-.title-subtitle-wrapper {
-  margin-bottom: 100px;
-  margin : 10px 960px 309px 109px;
-  margin-right: 250px;
-  margin-left: 109;
+#root {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  height: 100vh;
 }
 
 .title-subtitle-wrapper h1 {
@@ -15,10 +15,6 @@
   font-size: 96px;
   line-height: 100px;
   margin-bottom: 50px;
-
-  width: 670px;
-  height: 200px;
-
 }
 
 .title-subtitle-wrapper p {
@@ -52,19 +48,17 @@
   background: none;
 }
 
-h3 {
-  margin: 100px 1471px 977px 109px;
+.img1 {
+  margin: 129px 0 0 0px;
+  padding: 0px !important;
   font-weight: 700;
   font-size: 32px;
   line-height: 40px;
-  margin-bottom: 183px;
-  margin-top: 129px;
-
 }
 
-.d2{
+.d2 {
   display: flex;
-  margin: auto;
+  align-items: center;
 }
 
 #sub {
@@ -72,11 +66,9 @@ h3 {
 }
 
 #image {
-  
   width: 625.01px;
-height: 865px;
-margin-left: 250px;
-  
+  height: 865px;
+  margin-left: 250px;
 }
 
 h1 {
@@ -96,5 +88,4 @@ p {
 
 .main {
   position: absolute;
-  
 }
